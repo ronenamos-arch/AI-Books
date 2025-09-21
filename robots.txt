@@ -1,0 +1,25 @@
+User-agent: *
+# Allow everything by default (GitHub Pages static site)
+Disallow:
+
+# Block development/draft folders (if any exist)
+Disallow: /drafts/
+Disallow: /staging/
+Disallow: /dev/
+Disallow: /.github/
+
+# Block temporary or system files
+Disallow: /*~
+Disallow: /.*
+Disallow: *.tmp
+
+# Allow important files
+Allow: /assets/
+Allow: /books/
+Allow: /samples/
+
+# Sitemap location
+Sitemap: https://ronenamos-arch.github.io/AI-Books/sitemap.xml
+
+# Optional: Crawl delay for respectful crawling
+# Crawl-delay: 1

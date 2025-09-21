@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="https://www.w3.org/1999/xhtml">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/</loc>
+    <lastmod>2025-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ronenamos-arch.github.io/AI-Books/assets/images/chabubi-hero.webp</image:loc>
+      <image:caption>חבובי מגלה את העולם - דף הבית</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/privacy.html</loc>
+    <lastmod>2025-09-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/terms.html</loc>
+    <lastmod>2025-09-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <!-- Book 1: חבובי מגלה את הצבעים -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/book/chabubi-discovers-colors/</loc>
+    <lastmod>2025-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://ronenamos-arch.github.io/AI-Books/assets/images/chabubi-colors-cover.webp</image:loc>
+      <image:caption>חבובי מגלה את הצבעים - עטיפת ספר</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Book 2: חבובי מכיר את החיות -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/book/chabubi-meets-animals/</loc>
+    <lastmod>2025-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://ronenamos-arch.github.io/AI-Books/assets/images/chabubi-animals-cover.webp</image:loc>
+      <image:caption>חבובי מכיר את החיות - עטיפת ספר</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Book 3: חבובי וכוכבי השמים -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/book/chabubi-discovers-stars/</loc>
+    <lastmod>2025-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://ronenamos-arch.github.io/AI-Books/assets/images/chabubi-stars-cover.webp</image:loc>
+      <image:caption>חבובי וכוכבי השמים - עטיפת ספר</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Book Bundle Page -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/bundle/</loc>
+    <lastmod>2025-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About Author Page -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/about/</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ronenamos-arch.github.io/AI-Books/assets/images/ronen-amos-author.webp</image:loc>
+      <image:caption>רונן עמוס - מחבר סדרת חבובי מגלה את העולם</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/contact/</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Blog/Articles Section -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/blog/</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Sample Chapter Downloads -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/samples/</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- FAQ Page -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/faq/</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Reviews Page -->
+  <url>
+    <loc>https://ronenamos-arch.github.io/AI-Books/reviews/</loc>
+    <lastmod>2025-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
