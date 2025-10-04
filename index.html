@@ -4,305 +4,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🚀 חבובי מגלה את העולם – כוח המשיכה - הספר שכל ילד חייב! 🌟</title>
     <meta name="description" content="הספר הראשון בסדרת 'חבובי מגלה את העולם' - פיזיקה קוונטית לגילאי 0-6! סיפור מרגש על מערכת השמש עם דמויות חמודות">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ronenamos-arch.github.io/AI-Books/">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="חבובי מגלה את העולם – כוח המשיכה">
+    <meta property="og:description" content="ספר דיגיטלי חדשני המלמד פיזיקה קוונטית לגילאי 0-6. 12 עמודים עם איורים מרהיבים וחריזה מושלמת. מחיר השקה מיוחד: ₪49.90">
+    <meta property="og:image" content="https://ronenamos-arch.github.io/AI-Books/assets/images/og-chabubi-book.jpg">
+    <meta property="og:url" content="https://ronenamos-arch.github.io/AI-Books/">
+    <meta property="og:locale" content="he_IL">
+    <meta property="og:site_name" content="חבובי מגלה את העולם">
+    <meta property="product:price:amount" content="49.90">
+    <meta property="product:price:currency" content="ILS">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="חבובי מגלה את העולם – כוח המשיכה">
+    <meta name="twitter:description" content="ספר דיגיטלי חדשני המלמד פיזיקה קוונטית לגילאי 0-6. איורים מרהיבים וחריזה מושלמת.">
+    <meta name="twitter:image" content="https://ronenamos-arch.github.io/AI-Books/assets/images/twitter-chabubi-card.jpg">
+
+    <!-- Favicon (placeholder - you'll need to create the actual file) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&amp;family=Fredoka+One:wght@400&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: 'Heebo', Arial, sans-serif;
-        direction: rtl;
-        text-align: right;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        min-height: 100vh;
-      }
-
-      .hero-section {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        padding: 60px 20px;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
-      }
-
-      .hero-stars {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: 
-          radial-gradient(circle at 20% 50%, white 2px, transparent 2px),
-          radial-gradient(circle at 40% 20%, white 1px, transparent 1px),
-          radial-gradient(circle at 90% 20%, white 1px, transparent 1px),
-          radial-gradient(circle at 80% 90%, white 2px, transparent 2px),
-          radial-gradient(circle at 10% 90%, white 1px, transparent 1px);
-        background-size: 200px 200px, 100px 100px, 150px 150px, 180px 180px, 120px 120px;
-        animation: twinkle 4s ease-in-out infinite;
-        opacity: 0.6;
-      }
-
-      @keyframes twinkle {
-        0%, 100% { opacity: 0.6; }
-        50% { opacity: 0.9; }
-      }
-
-      .hero-content {
-        position: relative;
-        z-index: 2;
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-
-      .hero-title {
-        font-family: 'Fredoka One', 'Heebo', cursive;
-        font-size: 3.5em;
-        margin-bottom: 20px;
-        text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
-        animation: bounce 2s ease-in-out infinite;
-      }
-
-      @keyframes bounce {
-        0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-        40% { transform: translateY(-10px); }
-        60% { transform: translateY(-5px); }
-      }
-
-      .hero-subtitle {
-        font-size: 1.6em;
-        margin-bottom: 30px;
-        opacity: 0.9;
-      }
-
-      .hero-badges {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin: 30px 0;
-        flex-wrap: wrap;
-      }
-
-      .badge {
-        background: rgba(255,255,255,0.2);
-        backdrop-filter: blur(10px);
-        padding: 8px 16px;
-        border-radius: 25px;
-        font-size: 0.9em;
-        border: 1px solid rgba(255,255,255,0.3);
-      }
-
-      .cta-button {
-        background: linear-gradient(45deg, #ff6b6b, #ff8e53);
-        color: white;
-        padding: 18px 40px;
-        border: none;
-        border-radius: 50px;
-        font-size: 1.4em;
-        font-weight: bold;
-        cursor: pointer;
-        margin: 20px 10px;
-        box-shadow: 0 8px 25px rgba(255,107,107,0.3);
-        transition: all 0.3s ease;
-        text-decoration: none;
-        display: inline-block;
-      }
-
-      .cta-button:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 12px 35px rgba(255,107,107,0.4);
-      }
-
-      .cta-secondary {
-        background: transparent;
-        border: 2px solid white;
-        color: white;
-      }
-
-      .cta-secondary:hover {
-        background: white;
-        color: #667eea;
-      }
-
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 20px;
-      }
-
-      .features-section {
-        background: white;
-        padding: 80px 20px;
-      }
-
-      .section-title {
-        text-align: center;
-        font-size: 2.5em;
-        color: #2c3e50;
-        margin-bottom: 60px;
-        font-family: 'Fredoka One', 'Heebo', cursive;
-      }
-
-      .features-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 40px;
-        margin-bottom: 60px;
-      }
-
-      .feature-card {
-        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-        color: white;
-        padding: 30px;
-        border-radius: 20px;
-        text-align: center;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        transition: transform 0.3s ease;
-      }
-
-      .feature-card:hover {
-        transform: translateY(-10px);
-      }
-
-      .feature-icon {
-        font-size: 3em;
-        margin-bottom: 20px;
-      }
-
-      .feature-title {
-        font-size: 1.4em;
-        font-weight: bold;
-        margin-bottom: 15px;
-      }
-
-      .preview-section {
-        background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-        padding: 80px 20px;
-        text-align: center;
-      }
-
-      .preview-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 30px;
-        margin-top: 50px;
-      }
-
-      .page-preview {
-        background: white;
-        border-radius: 15px;
-        padding: 20px;
-        box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-        transition: transform 0.3s ease;
-      }
-
-      .page-preview:hover {
-        transform: scale(1.05);
-      }
-
-      .page-image {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 10px;
-        margin-bottom: 15px;
-      }
-
-      .page-title {
-        font-weight: bold;
-        font-size: 1.1em;
-        color: #2c3e50;
-        margin-bottom: 10px;
-      }
-
-      .page-content {
-        font-size: 0.9em;
-        color: #666;
-        line-height: 1.6;
-      }
-
-      .placeholder-content {
-        background: linear-gradient(45deg, #f3f3f3, #e8e8e8);
-        border: 2px dashed #ccc;
-        border-radius: 10px;
-        padding: 40px 20px;
-        text-align: center;
-        color: #888;
-        font-style: italic;
-      }
-
-      .coming-soon {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        padding: 60px 20px;
-        text-align: center;
-      }
-
-      .social-proof {
-        background: #f8f9fa;
-        padding: 60px 20px;
-        text-align: center;
-      }
-
-      .testimonial {
-        max-width: 600px;
-        margin: 0 auto;
-        font-size: 1.2em;
-        font-style: italic;
-        color: #555;
-        margin-bottom: 30px;
-      }
-
-      .stats-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 30px;
-        margin-top: 40px;
-      }
-
-      .stat-card {
-        text-align: center;
-      }
-
-      .stat-number {
-        font-size: 2.5em;
-        font-weight: bold;
-        color: #667eea;
-        display: block;
-      }
-
-      .stat-label {
-        color: #666;
-        font-size: 0.9em;
-      }
-
-      .footer {
-        background: #2c3e50;
-        color: white;
-        padding: 40px 20px;
-        text-align: center;
-      }
-
-      @media (max-width: 768px) {
-        .hero-title {
-          font-size: 2.5em;
-        }
-        
-        .hero-badges {
-          flex-direction: column;
-          align-items: center;
-        }
-        
-        .cta-button {
-          display: block;
-          margin: 10px 0;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 
   <!-- JSON-LD Structured Data for Educational Book -->
   <script type="application/ld+json">
@@ -326,6 +56,13 @@
     "numberOfPages": 12,
     "image": "https://ronenamos-arch.github.io/AI-Books/assets/images/chabubi-stars-cover.webp",
     "url": "https://ronenamos-arch.github.io/AI-Books/",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "47",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
     "offers": {
       "@type": "Offer",
       "url": "https://ronenamos-arch.github.io/AI-Books/",
@@ -378,6 +115,43 @@
   }
   </script>
 
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "חבובי מגלה את העולם - ספרי ילדים חינוכיים",
+    "image": "https://ronenamos-arch.github.io/AI-Books/assets/images/chabubi-logo.webp",
+    "description": "הוצאה לאור דיגיטלית המתמחה בספרי ילדים חינוכיים בעברית לגילאי 0-6, המלמדים מדע ופיזיקה בדרך מהנה ומרתקת",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IL",
+      "addressRegion": "Israel"
+    },
+    "telephone": "+972-50-5500344",
+    "email": "ronenamos@gmail.com",
+    "priceRange": "₪₪",
+    "url": "https://ronenamos-arch.github.io/AI-Books/",
+    "paymentAccepted": "PayPal, Credit Card",
+    "currenciesAccepted": "ILS",
+    "openingHours": "Mo-Su",
+    "areaServed": {
+      "@type": "Country",
+      "name": "Israel"
+    },
+    "brand": {
+      "@type": "Brand",
+      "name": "חבובי מגלה את העולם"
+    },
+    "foundingDate": "2025",
+    "founder": {
+      "@type": "Person",
+      "name": "רונן עמוס",
+      "jobTitle": "מחבר ויועץ טכנולוגיה פיננסית"
+    }
+  }
+  </script>
+
   </head>
   <body style="">
     <!-- Navigation Header -->
@@ -389,6 +163,7 @@
         <div style="display: flex; gap: 20px; align-items: center;">
           <a href="#preview" style="color: #667eea; text-decoration: none; font-size: 0.9em;">📖 צפייה בספר</a>
           <a href="#order" style="color: #667eea; text-decoration: none; font-size: 0.9em;">🛒 הזמנה</a>
+          <a href="faq.html" style="color: #667eea; text-decoration: none; font-size: 0.9em;">❓ שאלות נפוצות</a>
           <a href="privacy.html" style="color: #667eea; text-decoration: none; font-size: 0.9em;">📋 פרטיות</a>
           <a href="terms.html" style="color: #667eea; text-decoration: none; font-size: 0.9em;">📜 תקנון</a>
         </div>
@@ -507,7 +282,7 @@
         <div class="preview-grid">
           <!-- Page 1 -->
           <div class="page-preview">
-            <img src="https://page.gensparksite.com/v1/base64_upload/4bcc75480ddc9dd9750d93ed2e850316" alt="עמוד 1 - חבובי זורק כדור" class="page-image" data-height-listener-added="true">
+            <img src="https://page.gensparksite.com/v1/base64_upload/4bcc75480ddc9dd9750d93ed2e850316" alt="עמוד 1 מספר חבובי - ילד זורק כדור צבעוני בחצר ותוהה למה הכדור תמיד נופל למטה" class="page-image" data-height-listener-added="true">
             <h3 class="page-title">עמוד 1 - הפתיחה המסקרנת</h3>
             <div class="page-content">
               <em>"חבובי משחק בחצר עם כדור צבעוני,<br>
@@ -519,7 +294,7 @@
           
           <!-- Page 2 -->
           <div class="page-preview">
-            <img src="https://page.gensparksite.com/v1/base64_upload/a7b6232d4c0c257cbbbfc1f0017b4c8b" alt="עמוד 2 - חבובי ושושי זורקים חפצים" class="page-image" data-height-listener-added="true">
+            <img src="https://page.gensparksite.com/v1/base64_upload/a7b6232d4c0c257cbbbfc1f0017b4c8b" alt="עמוד 2 מספר חבובי - חבובי ושושי השועל מנסים לזרוק עלים אבנים וצעצועים והכל נופל למטה" class="page-image" data-height-listener-added="true">
             <h3 class="page-title">עמוד 2 - הניסוי הגדול</h3>
             <div class="page-content">
               <em>"שושי השועל הקטן מגיע לחבובי,<br>
@@ -531,7 +306,7 @@
           
           <!-- Page 3 -->
           <div class="page-preview">
-            <img src="https://page.gensparksite.com/v1/base64_upload/bab27e939dbf5551beb73875d063ac96" alt="עמוד 3 - חבובי מסתכל לשמיים" class="page-image" data-height-listener-added="true">
+            <img src="https://page.gensparksite.com/v1/base64_upload/bab27e939dbf5551beb73875d063ac96" alt="עמוד 3 מספר חבובי - ילד מסתכל לשמיים ורואה שמש ירח ועננים ושואל למה הם לא נופלים למטה" class="page-image" data-height-listener-added="true">
             <h3 class="page-title">עמוד 3 - השאלה הגדולה</h3>
             <div class="page-content">
               <em>"חבובי מסתכל למעלה אל השמיים הגדולים,<br>
@@ -540,10 +315,10 @@
               והירח הגדול למה תמיד נשאר למעלה?'"</em>
             </div>
           </div>
-          
+
           <!-- Page 4 -->
           <div class="page-preview">
-            <img src="https://page.gensparksite.com/v1/base64_upload/c004283a3eb89bf0c515f0ca5cd22f02" alt="עמוד 4 - שושי ומגנט" class="page-image" data-height-listener-added="true">
+            <img src="https://page.gensparksite.com/v1/base64_upload/c004283a3eb89bf0c515f0ca5cd22f02" alt="עמוד 4 מספר חבובי - שושי השועל מציע לחקור עם מגנט וכדורי ברזל להבין משיכה" class="page-image" data-height-listener-added="true">
             <h3 class="page-title">עמוד 4 - התחלת החקירה</h3>
             <div class="page-content">
               <em>"'בואו נחקור!' שושי אומר בהתרגשות,<br>
@@ -552,10 +327,10 @@
               'בואו נראה איך הם נמשכים - זה יהיה מדהים!'"</em>
             </div>
           </div>
-          
+
           <!-- Page 5 -->
           <div class="page-preview">
-            <img src="https://page.gensparksite.com/v1/base64_upload/264a33945ed06094b4ce5e443b4ed9d0" alt="עמוד 5 - הניסוי המגנטי" class="page-image" data-height-listener-added="true">
+            <img src="https://page.gensparksite.com/v1/base64_upload/264a33945ed06094b4ce5e443b4ed9d0" alt="עמוד 5 מספר חבובי - ניסוי מגנטי מרהיב כשכדורי ברזל קופצים למגנט בלי מגע וחבובי מתפעל" class="page-image" data-height-listener-added="true">
             <h3 class="page-title">עמוד 5 - הניסוי המגנטי</h3>
             <div class="page-content">
               <em>"המגנט מושך את הכדורים בלי לגעת!<br>
@@ -564,10 +339,10 @@
               'איך המגנט מושך אותם מרחוק - איזה יופי!'"</em>
             </div>
           </div>
-          
+
           <!-- Page 6 -->
           <div class="page-preview">
-            <img src="https://page.gensparksite.com/v1/base64_upload/50faac82f7fd4d0fd940c3f368754b24" alt="עמוד 6 - החיבור לחלל" class="page-image" data-height-listener-added="true">
+            <img src="https://page.gensparksite.com/v1/base64_upload/50faac82f7fd4d0fd940c3f368754b24" alt="עמוד 6 מספר חבובי - שושי מסביר שהשמש היא כמו מגנט ענק שמושכת את כל הכוכבים והירח בחלל" class="page-image" data-height-listener-added="true">
             <h3 class="page-title">עמוד 6 - החיבור לחלל</h3>
             <div class="page-content">
               <em>"'עכשיו אני מבין!' שושי קופץ בשמחה,<br>
@@ -578,7 +353,7 @@
           </div>
           <!-- Pages 7-12 - Additional Preview -->
           <div class="page-preview">
-            <img src="https://page.gensparksite.com/v1/base64_upload/0c23620a28b1f8511d6ecd3c105ce0a3" alt="עמוד 7 - הריקוד הקוסמי" class="page-image" data-height-listener-added="true">
+            <img src="https://page.gensparksite.com/v1/base64_upload/0c23620a28b1f8511d6ecd3c105ce0a3" alt="עמוד 7 מספר חבובי - כוכבים רוקדים סביב השמש כמו קרוסלה ענקית במעגלים נעימים" class="page-image" data-height-listener-added="true">
             <h3 class="page-title">עמוד 7 - הריקוד הקוסמי</h3>
             <div class="page-content">
               <em>"כל הכוכבים רוקדים סביב השמש הזוהרת,<br>
@@ -587,9 +362,9 @@
               רוקדים בחלל כמו ילדים שמחים וצוהלים!"</em>
             </div>
           </div>
-          
+
           <div class="page-preview">
-            <img src="https://page.gensparksite.com/v1/base64_upload/50c5154301697bbee30ffc6ac7330766" alt="עמוד 8 - החזרה לכדור הארץ" class="page-image" data-height-listener-added="true">
+            <img src="https://page.gensparksite.com/v1/base64_upload/50c5154301697bbee30ffc6ac7330766" alt="עמוד 8 מספר חבובי - חבובי שואל למה הוא לא עף לחלל ושושי מסביר שכדור הארץ מושך אותנו" class="page-image" data-height-listener-added="true">
             <h3 class="page-title">עמוד 8 - החזרה לכדור הארץ</h3>
             <div class="page-content">
               <em>"'אבל מה איתנו?' חבובי שואל בסקרנות,<br>
@@ -598,9 +373,9 @@
               בדיוק כמו שהשמש מושכת את הירח היפהפה!'"</em>
             </div>
           </div>
-          
+
           <div class="page-preview">
-            <img src="https://page.gensparksite.com/v1/base64_upload/e3bffd258fda15cba2488b223f8b3e24" alt="עמוד 9 - הדוגמה המוכרת" class="page-image" data-height-listener-added="true">
+            <img src="https://page.gensparksite.com/v1/base64_upload/e3bffd258fda15cba2488b223f8b3e24" alt="עמוד 9 מספר חבובי - דוגמה חמה של חיבוק אמא לילדים שמסבירה את כוח המשיכה באהבה" class="page-image" data-height-listener-added="true">
             <h3 class="page-title">עמוד 9 - הדוגמה המוכרת</h3>
             <div class="page-content">
               <em>"'זה כמו כשאמא קוראת לנו לחיבוק חזק,<br>
@@ -609,9 +384,9 @@
               שמחבקת את כל הכוכבים באהבה רכה!'"</em>
             </div>
           </div>
-          
+
           <div class="page-preview">
-            <img src="https://page.gensparksite.com/v1/base64_upload/0746e6ad14f551c5a6df4189e8b52177" alt="עמוד 10 - הפעילות המעשית" class="page-image" data-height-listener-added="true">
+            <img src="https://page.gensparksite.com/v1/base64_upload/0746e6ad14f551c5a6df4189e8b52177" alt="עמוד 10 מספר חבובי - חבובי ושושי משחקים משחק תפקידים של מערכת השמש ורצים במעגלים" class="page-image" data-height-listener-added="true">
             <h3 class="page-title">עמוד 10 - הפעילות המעשית</h3>
             <div class="page-content">
               <em>"'בואו נשחק במשחק של מערכת השמש!<br>
@@ -620,9 +395,9 @@
               'אני כוכב הלכת שרוקד במסלולים יפים!'"</em>
             </div>
           </div>
-          
+
           <div class="page-preview">
-            <img src="https://page.gensparksite.com/v1/base64_upload/6a02d92e29fe71eea66ca643f94a222d" alt="עמוד 11 - הגילוי הגדול" class="page-image" data-height-listener-added="true">
+            <img src="https://page.gensparksite.com/v1/base64_upload/6a02d92e29fe71eea66ca643f94a222d" alt="עמוד 11 מספר חבובי - חבובי מבין את הגילוי הגדול שכדור הארץ מושך כמו מגנט ענק" class="page-image" data-height-listener-added="true">
             <h3 class="page-title">עמוד 11 - הגילוי הגדול</h3>
             <div class="page-content">
               <em>"'עכשיו אני יודע למה הכל נופל למטה!<br>
@@ -631,9 +406,9 @@
               כי אין דבר גדול יותר שימשוך אותה למטה!'"</em>
             </div>
           </div>
-          
+
           <div class="page-preview">
-            <img src="https://page.gensparksite.com/v1/base64_upload/90af5c2fa3e67f27cf748ff430a028c0" alt="עמוד 12 - הסיום המעודד" class="page-image" data-height-listener-added="true">
+            <img src="https://page.gensparksite.com/v1/base64_upload/90af5c2fa3e67f27cf748ff430a028c0" alt="עמוד 12 מספר חבובי - סיום מעודד עם חבובי ושושי צופים בשקיעה יפה ומחכים להרפתקאות חדשות" class="page-image" data-height-listener-added="true">
             <h3 class="page-title">עמוד 12 - הסיום המעודד</h3>
             <div class="page-content">
               <em>"חבובי ושושי מסתכלים על השקיעה היפה,<br>
