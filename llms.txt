@@ -1,0 +1,38 @@
+# Chabubi Discovery Series - Educational Science Books for Young Children
+
+## About
+Educational children's book series introducing real physics concepts to ages 0-6.
+Author: Ronen Amos
+First book: "Chabubi Discovers Gravity" (חבובי מגלה את כוח המשיכה)
+Planned series of 10 books combining science education with engaging storytelling.
+Contact: ronenamos@gmail.com
+
+## Main Pages
+
+https://ronenamos-arch.github.io/AI-Books/
+https://ronenamos-arch.github.io/AI-Books/index-en.html
+
+## Book Information
+
+**Chabubi Discovers Gravity**
+- 12 illustrated pages introducing gravity concepts
+- Rhyming text format for early readers
+- Real science concepts adapted for young children
+- Vibrant illustrations with relatable characters
+- Available in Hebrew and English
+
+### Key Topics Covered:
+- Introduction to gravity
+- Magnetic forces and experiments
+- Celestial mechanics and space
+- Practical everyday applications
+- Hands-on learning activities
+
+## Additional Resources
+
+https://ronenamos-arch.github.io/AI-Books/faq.html
+
+## Legal
+
+https://ronenamos-arch.github.io/AI-Books/privacy.html
+https://ronenamos-arch.github.io/AI-Books/terms.html
